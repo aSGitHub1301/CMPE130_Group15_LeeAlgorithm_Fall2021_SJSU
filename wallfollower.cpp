@@ -8,6 +8,7 @@
 #include <chrono>
 using namespace std;
 using namespace std::chrono;
+
 #define ROW 10
 #define COL 10
  
@@ -18,14 +19,14 @@ struct Point
     int y;
 };
  
-// A Data Structure for queue used in BFS
+//a data structure for queue used in BFS
 struct queueNode
 {
     Point pt;  
     int dist;  
 };
  
-// checks if cell is in matrix
+//checks if cell is in matrix
 bool isValid(int row, int col)
 {
     return (row >= 0) && (row < ROW) &&
