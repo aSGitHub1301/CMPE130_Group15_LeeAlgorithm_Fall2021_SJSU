@@ -8,7 +8,7 @@
 using namespace std;
 using namespace std::chrono;
 
-// Maze size
+//maze size
 #define N 10
  
 bool solveMazeUtil(
